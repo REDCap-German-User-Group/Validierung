@@ -1,0 +1,11 @@
+test1:
+  secret: !include api_token.yaml
+  type: survey
+  url: https://redcap.medizin.uni-leipzig.de/redcap/surveys/?s=YHH8JDJYHKYNHWDL
+  run:
+    age: 50
+    redcap_validation_error: true
+    school: 1
+    sex: 3
+    icecream: 2
+    redcap_button: submit
